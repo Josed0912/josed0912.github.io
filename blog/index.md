@@ -8,7 +8,13 @@ layout: default
 
 <ul>
 
-<li><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3></li>
+<li><div class="container">
+    <div class="left">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <div class="right">
+        <img src="{{post.image}}">
+    </div>
+</div></li>
 
 <ul>
 
