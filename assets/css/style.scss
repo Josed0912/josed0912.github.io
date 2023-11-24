@@ -9,7 +9,6 @@
             align-items: center;
             max-width: 800px; /* Adjust the width as needed */
             margin: auto;
-            height: 200px;
         }
 
         /* Left side (title and text) */
@@ -31,6 +30,7 @@
             width: 100%;
             max-width: 100%;
             height: auto;
+            flex-shrink: 1;
         }
 
 /* TO-DO: Ensure the text is adjacent to the image*/
