@@ -6,7 +6,7 @@ image: "/assets/images/safe-message.png"
 
 ![](/assets/images/safe-message.png)
 
-### [Link to the Repository](https://github.com/WillDunw/Hackathon-SafeMessage.git)
+### [Link to the Repository](https://github.com/Josed0912/Hackathon-Safe-Message.git)
 
 ## **Project Description**
 
