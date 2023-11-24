@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Jose David Torres
 ---
 
 # **About Me**
