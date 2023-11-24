@@ -2,3 +2,45 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+/* Flex container */
+        .container {
+            display: flex;
+            align-items: center;
+            max-width: 800px; /* Adjust the width as needed */
+            margin: auto;
+        }
+
+        /* Left side (title and text) */
+        .left {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right{
+            width: 400px;
+            padding: 20px;
+        }
+
+        /* Right side (image) */
+        .right img{
+            flex: 1;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+
+/* TO-DO: Ensure the text is adjacent to the image*/
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .right img{
+                margin-top: 20px;
+            }
+        }
+        a img {
+            margin : 10px
+        }

@@ -56,9 +56,55 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      <h1 id="safe-message">Safe-Message</h1>
+      <p><img src="/assets/images/safe-message.png" alt="" /></p>
 
-<h2 id="project-description">Project Description</h2>
+<h3 id="link-to-the-repository"><a href="https://github.com/WillDunw/Hackathon-SafeMessage.git">Link to the Repository</a></h3>
+
+<h2 id="project-description"><strong>Project Description</strong></h2>
+
+<p>This app was made in Bell’s Geekfest Hackathon in a team of 3 as a response to the prompt: “An innovative way of implementing cybersecurity”.</p>
+
+<h2 id="technology-stack"><strong>Technology Stack</strong></h2>
+
+<h3 id="front-end">Front-End</h3>
+
+<p>The front end of the application was made using <a href="https://react.dev/">React.js</a>, which made the website’s design responsive.</p>
+
+<h3 id="back-end">Back-End</h3>
+
+<p>The back end of the app was made using <a href="https://nodejs.org/en/">Node.js</a>.</p>
+
+<h3 id="external-apis">External APIs</h3>
+
+<p>This app implements the <a href="https://developers.google.com/gmail/api/guides">Google Gmail API</a> to access the user’s inbox and the <a href="https://www.oopspam.com/">OOPSpam</a> API to detect whether the emails are spam or not.</p>
+
+<h2 id="application-functionality"><strong>Application Functionality</strong></h2>
+
+<p>To run the application you must run the backend as well as the front end.</p>
+
+<h3 id="run-the-back-end">Run the back end</h3>
+
+<ol>
+  <li>Navigate to the <strong>/safe-message/mini-backend</strong> folder in the application.</li>
+  <li>Use the <strong>node server.js</strong> command.</li>
+</ol>
+
+<h3 id="run-the-front-end">Run the front end</h3>
+
+<ol>
+  <li>Navigate to the <strong>/safe-message</strong> folder.</li>
+  <li>Ensure you have the required node modules by using the <strong>npm i</strong> command.</li>
+  <li>Use the <strong>npm start</strong> command.</li>
+</ol>
+
+<p>Once the application is started a button <em>Scan Gmail</em> will be shown on the screen along with the app’s description.</p>
+
+<p>The first time you click the button, you will be redirected to the Gmail login page to enter your Gmail account and to give permission to Safe-Message to access your inbox.</p>
+
+<p>You will then be redirected back to the application.</p>
+
+<p>Then, you can click the button again and the app will get your latest 100 emails and give you a rating report on whether it’s likely to be spam (0 being unlikely and 6 being definitely).</p>
+
 
 
       <footer class="site-footer">

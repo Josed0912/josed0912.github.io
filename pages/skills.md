@@ -2,6 +2,6 @@
 layout : default
 ---
 
-# Skills
+# **Skills**
 
 ## A skill
