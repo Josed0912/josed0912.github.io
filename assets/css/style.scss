@@ -3,12 +3,22 @@
 
 @import 'jekyll-theme-cayman';
 
-/* Flex container */
-        .container {
+        .grid-container{
             display: flex;
-            align-items: center;
-            max-width: 800px; /* Adjust the width as needed */
+            flex-direction: column;
+            max-width: 800px;
             margin: auto;
+        }
+
+        /* Flex container inside grid container */
+        .container {
+            margin-bottom: 20px;
+        }
+
+        .content{
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
         }
 
         /* Left side (title and text) */
@@ -19,29 +29,28 @@
 
         .right
         {
-            flex : 1;
-            // width: 400px;
             padding: 20px;
+            flex-shrink: 0;
         }
 
         /* Right side (image) */
         .right img{
-            flex: 1;
-            width: 100%;
-            max-width: 100%;
-            height: auto;
-            flex-shrink: 1;
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            display: block;
         }
-
-/* TO-DO: Ensure the text is adjacent to the image*/
 
         /* Responsive styles */
         @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
+            .grid-container {
+                max-width: 100%;
+                padding: 0 20px;
             }
-            .right img{
-                margin-top: 20px;
+
+            .content {
+                flex-direction: column;
+                align-items: flex-start;
             }
         }
         a img {

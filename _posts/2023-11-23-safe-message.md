@@ -16,7 +16,7 @@ This app was made in Bell's Geekfest Hackathon in a team of 3 as a response to t
 
 ### Front-End 
 
-The front end of the application was made using [React.js](https://react.dev/), which made the website's design responsive.
+The front end of the application was made using [React](https://react.dev/), which made the website's design responsive.
 
 ### Back-End
 
