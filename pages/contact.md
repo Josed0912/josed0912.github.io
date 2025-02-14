@@ -8,7 +8,7 @@ layout: default
 <a href="https://github.com/Josed0912"><img src="/assets/images/github_logo.png" width="75"></a>
 </div>
 
-### **City:** Ste-Anne-de-Bellevue
+### **City:** Montreal
 ### **Email Address:** josephdtowers2@gmail.com
 ### **Phone number:** +1 (514) 714 6084
 
