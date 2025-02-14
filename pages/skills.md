@@ -37,3 +37,5 @@ layout : default
 - Bash
 
 - Java, Kotlin
+
+- Python
